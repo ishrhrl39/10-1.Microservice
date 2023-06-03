@@ -1,0 +1,61 @@
+2023-06-03T14:09:11.912+09:00  INFO 30896 --- [restartedMain] o.m.a.AuthenticationServerApplication    : The following 1 profile is active: "local"
+2023-06-03T14:09:12.847+09:00  INFO 30896 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03T14:09:13.127+09:00  INFO 30896 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 263 ms. Found 1 JPA repository interfaces.
+2023-06-03T14:09:13.418+09:00  INFO 30896 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=13b49fdf-fd83-301b-882e-e9f9152a493d
+2023-06-03T14:09:14.109+09:00  INFO 30896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8900 (http)
+2023-06-03T14:09:14.128+09:00  INFO 30896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-03T14:09:14.129+09:00  INFO 30896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-03T14:09:14.245+09:00  INFO 30896 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-03T14:09:14.246+09:00  INFO 30896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2315 ms
+2023-06-03T14:09:14.471+09:00  INFO 30896 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-03T14:09:14.622+09:00  INFO 30896 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-03T14:09:15.052+09:00  INFO 30896 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-03T14:09:15.147+09:00  INFO 30896 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@76c52538
+2023-06-03T14:09:15.150+09:00  INFO 30896 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-03T14:09:15.177+09:00  INFO 30896 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2023-06-03T14:09:15.179+09:00  WARN 30896 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MariaDB103Dialect has been deprecated; use org.hibernate.dialect.MariaDBDialect instead
+2023-06-03T14:09:16.565+09:00  INFO 30896 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-03T14:09:16.577+09:00  INFO 30896 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03T14:09:16.882+09:00  WARN 30896 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-03T14:09:17.333+09:00  WARN 30896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-06-03T14:09:17.590+09:00  INFO 30896 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-06-03T14:09:17.964+09:00  INFO 30896 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-06-03T14:09:18.025+09:00  INFO 30896 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-06-03T14:09:18.031+09:00  INFO 30896 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-06-03T14:09:18.060+09:00  INFO 30896 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-06-03T14:09:18.071+09:00  INFO 30896 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-06-03T14:09:18.071+09:00  INFO 30896 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-06-03T14:09:18.071+09:00  INFO 30896 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-06-03T14:09:18.071+09:00  INFO 30896 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-06-03T14:09:18.072+09:00  INFO 30896 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-06-03T14:09:18.072+09:00  INFO 30896 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-06-03T14:09:18.383+09:00  INFO 30896 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-06-03T14:09:18.386+09:00  INFO 30896 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-06-03T14:09:18.390+09:00  INFO 30896 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-06-03T14:09:18.396+09:00  INFO 30896 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1685768958395 with initial instances count: 1
+2023-06-03T14:09:18.398+09:00  INFO 30896 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTHENTICATION-SERVER with eureka with status UP
+2023-06-03T14:09:18.399+09:00  INFO 30896 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1685768958399, current=UP, previous=STARTING]
+2023-06-03T14:09:18.402+09:00  INFO 30896 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVER/host.docker.internal:authentication-server:8900: registering service...
+2023-06-03T14:09:18.430+09:00  INFO 30896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8900 (http) with context path ''
+2023-06-03T14:09:18.430+09:00  INFO 30896 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8900
+2023-06-03T14:09:18.444+09:00  INFO 30896 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVER/host.docker.internal:authentication-server:8900 - registration status: 204
+2023-06-03T14:09:18.661+09:00  INFO 30896 --- [restartedMain] o.m.a.AuthenticationServerApplication    : Started AuthenticationServerApplication in 8.476 seconds (process running for 9.45)
+2023-06-03T14:09:30.200+09:00  INFO 30896 --- [http-nio-8900-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-03T14:09:30.200+09:00  INFO 30896 --- [http-nio-8900-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-03T14:09:30.202+09:00  INFO 30896 --- [http-nio-8900-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-06-03T14:09:30.447+09:00 DEBUG 30896 --- [http-nio-8900-exec-2] o.m.a.c.AuthenticationController         : join.account.id = admin
+2023-06-03T14:09:33.304+09:00 DEBUG 30896 --- [http-nio-8900-exec-3] o.m.a.c.AuthenticationController         : token.account.id = admin
+2023-06-03T14:11:50.753+09:00  INFO 30896 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-06-03T14:11:50.754+09:00  INFO 30896 --- [RMI TCP Connection(6)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTHENTICATION-SERVER with eureka with status DOWN
+2023-06-03T14:11:50.754+09:00  INFO 30896 --- [RMI TCP Connection(6)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1685769110754, current=DOWN, previous=UP]
+2023-06-03T14:11:50.754+09:00  INFO 30896 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVER/host.docker.internal:authentication-server:8900: registering service...
+2023-06-03T14:11:50.760+09:00  INFO 30896 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVER/host.docker.internal:authentication-server:8900 - registration status: 204
+2023-06-03T14:11:50.773+09:00  INFO 30896 --- [RMI TCP Connection(6)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-03T14:11:50.774+09:00  INFO 30896 --- [RMI TCP Connection(6)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-03T14:11:50.781+09:00  INFO 30896 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03T14:11:50.784+09:00  INFO 30896 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-03T14:11:50.788+09:00  INFO 30896 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-03T14:11:50.789+09:00  INFO 30896 --- [RMI TCP Connection(6)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-06-03T14:11:53.799+09:00  INFO 30896 --- [RMI TCP Connection(6)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-06-03T14:11:53.805+09:00  INFO 30896 --- [RMI TCP Connection(6)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVER/host.docker.internal:authentication-server:8900 - deregister  status: 200
+2023-06-03T14:11:53.809+09:00  INFO 30896 --- [RMI TCP Connection(6)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

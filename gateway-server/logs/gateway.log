@@ -1,0 +1,81 @@
+2023-06-03T14:09:13.821+09:00  INFO [gateway-server,,] 9480 --- [main] o.m.g.GatewayServerApplication           : The following 1 profile is active: "local"
+2023-06-03T14:09:14.978+09:00  INFO [gateway-server,,] 9480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03T14:09:15.186+09:00  INFO [gateway-server,,] 9480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 195 ms. Found 1 JPA repository interfaces.
+2023-06-03T14:09:15.485+09:00  INFO [gateway-server,,] 9480 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=669973d7-9beb-3c6e-a5de-4c4145819114
+2023-06-03T14:09:15.639+09:00  INFO [gateway-server,,] 9480 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-03T14:09:15.641+09:00  INFO [gateway-server,,] 9480 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-03T14:09:15.643+09:00  INFO [gateway-server,,] 9480 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-03T14:09:16.002+09:00  INFO [gateway-server,,] 9480 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-03T14:09:16.078+09:00  INFO [gateway-server,,] 9480 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-03T14:09:16.442+09:00  INFO [gateway-server,,] 9480 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-03T14:09:16.543+09:00  INFO [gateway-server,,] 9480 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@4b7e4d14
+2023-06-03T14:09:16.545+09:00  INFO [gateway-server,,] 9480 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-03T14:09:16.570+09:00  INFO [gateway-server,,] 9480 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2023-06-03T14:09:16.573+09:00  WARN [gateway-server,,] 9480 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MariaDB103Dialect has been deprecated; use org.hibernate.dialect.MariaDBDialect instead
+2023-06-03T14:09:18.301+09:00  INFO [gateway-server,,] 9480 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-03T14:09:18.315+09:00  INFO [gateway-server,,] 9480 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03T14:09:18.617+09:00  WARN [gateway-server,,] 9480 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.msa.gatewayserver.repository.AccountRepository
+2023-06-03T14:09:19.471+09:00  INFO [gateway-server,,] 9480 --- [main] .g.c.LocalResponseCacheAutoConfiguration : Initializing Caffeine
+2023-06-03T14:09:19.536+09:00  INFO [gateway-server,,] 9480 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-06-03T14:09:19.536+09:00  INFO [gateway-server,,] 9480 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-06-03T14:09:19.536+09:00  INFO [gateway-server,,] 9480 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-06-03T14:09:19.536+09:00  INFO [gateway-server,,] 9480 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-06-03T14:09:19.537+09:00  INFO [gateway-server,,] 9480 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-06-03T14:09:19.537+09:00  INFO [gateway-server,,] 9480 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-06-03T14:09:19.537+09:00  INFO [gateway-server,,] 9480 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-06-03T14:09:19.537+09:00  INFO [gateway-server,,] 9480 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-06-03T14:09:19.537+09:00  INFO [gateway-server,,] 9480 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-06-03T14:09:19.537+09:00  INFO [gateway-server,,] 9480 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-06-03T14:09:19.537+09:00  INFO [gateway-server,,] 9480 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-06-03T14:09:19.538+09:00  INFO [gateway-server,,] 9480 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-06-03T14:09:19.538+09:00  INFO [gateway-server,,] 9480 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-06-03T14:09:19.538+09:00  INFO [gateway-server,,] 9480 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-06-03T14:09:20.213+09:00  INFO [gateway-server,,] 9480 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2023-06-03T14:09:20.576+09:00  INFO [gateway-server,,] 9480 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-06-03T14:09:20.691+09:00  INFO [gateway-server,,] 9480 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-06-03T14:09:20.736+09:00  INFO [gateway-server,,] 9480 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-06-03T14:09:20.742+09:00  INFO [gateway-server,,] 9480 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-06-03T14:09:20.766+09:00  INFO [gateway-server,,] 9480 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-06-03T14:09:20.767+09:00  INFO [gateway-server,,] 9480 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-06-03T14:09:20.767+09:00  INFO [gateway-server,,] 9480 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-06-03T14:09:20.767+09:00  INFO [gateway-server,,] 9480 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-06-03T14:09:20.767+09:00  INFO [gateway-server,,] 9480 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-06-03T14:09:20.767+09:00  INFO [gateway-server,,] 9480 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-06-03T14:09:20.767+09:00  INFO [gateway-server,,] 9480 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-06-03T14:09:21.070+09:00  INFO [gateway-server,,] 9480 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-06-03T14:09:21.074+09:00  INFO [gateway-server,,] 9480 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-06-03T14:09:21.076+09:00  INFO [gateway-server,,] 9480 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-06-03T14:09:21.082+09:00  INFO [gateway-server,,] 9480 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1685768961081 with initial instances count: 1
+2023-06-03T14:09:21.084+09:00  INFO [gateway-server,,] 9480 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVER with eureka with status UP
+2023-06-03T14:09:21.085+09:00  INFO [gateway-server,,] 9480 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1685768961085, current=UP, previous=STARTING]
+2023-06-03T14:09:21.087+09:00  INFO [gateway-server,,] 9480 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/host.docker.internal:gateway-server:8070: registering service...
+2023-06-03T14:09:21.129+09:00  INFO [gateway-server,,] 9480 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/host.docker.internal:gateway-server:8070 - registration status: 204
+2023-06-03T14:09:21.317+09:00  INFO [gateway-server,,] 9480 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8070
+2023-06-03T14:09:21.318+09:00  INFO [gateway-server,,] 9480 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8070
+2023-06-03T14:09:22.226+09:00  INFO [gateway-server,,] 9480 --- [main] o.m.g.GatewayServerApplication           : Started GatewayServerApplication in 10.526 seconds (process running for 11.538)
+2023-06-03T14:09:49.631+09:00  INFO [gateway-server,,] 9480 --- [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY4NTc2ODk4MywiaWF0IjoxNjg1NzY4OTczfQ.-RMrYgEplOO-0AayOfh7SEdxwQqaR4ct9DFLo2Xnk06ZsohnLhIaAvvI8-ugsC2SXXFGYVCnzaguFCFbQrufYw
+2023-06-03T14:09:49.779+09:00  INFO [gateway-server,,] 9480 --- [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : user authentication check result = true
+2023-06-03T14:09:49.855+09:00  WARN [gateway-server,,] 9480 --- [reactor-http-nio-3] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: item-service
+2023-06-03T14:09:59.017+09:00  INFO [gateway-server,,] 9480 --- [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY4NTc2ODk4MywiaWF0IjoxNjg1NzY4OTczfQ.-RMrYgEplOO-0AayOfh7SEdxwQqaR4ct9DFLo2Xnk06ZsohnLhIaAvvI8-ugsC2SXXFGYVCnzaguFCFbQrufYw
+2023-06-03T14:09:59.024+09:00  INFO [gateway-server,,] 9480 --- [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : user authentication check result = true
+2023-06-03T14:09:59.052+09:00  INFO [gateway-server,,] 9480 --- [reactor-http-nio-3] o.m.gatewayserver.filter.LoggingFilter   : request.id: 20ce5f06-2, method: POST , url: http://localhost:8070/v1/item/add/C
+2023-06-03T14:09:59.066+09:00  INFO [gateway-server,,] 9480 --- [boundedElastic-1] o.m.gatewayserver.filter.LoggingFilter   : request.id: 20ce5f06-2, request body :{
+    "id" : "1",
+    "name" : "item1",
+    "description" : "item description1",
+    "count" : 100
+}
+2023-06-03T14:09:59.755+09:00  INFO [gateway-server,,] 9480 --- [reactor-http-nio-3] o.m.gatewayserver.filter.LoggingFilter   : request.id: 20ce5f06-2, method: POST, url: http://localhost:8070/v1/item/add/C, 
+response body :{"code":"200","message":"success"}
+2023-06-03T14:11:36.958+09:00  INFO [gateway-server,,] 9480 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-06-03T14:11:36.959+09:00  INFO [gateway-server,,] 9480 --- [RMI TCP Connection(8)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GATEWAY-SERVER with eureka with status DOWN
+2023-06-03T14:11:36.960+09:00  INFO [gateway-server,,] 9480 --- [RMI TCP Connection(8)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1685769096960, current=DOWN, previous=UP]
+2023-06-03T14:11:36.960+09:00  INFO [gateway-server,,] 9480 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/host.docker.internal:gateway-server:8070: registering service...
+2023-06-03T14:11:36.966+09:00  INFO [gateway-server,,] 9480 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/host.docker.internal:gateway-server:8070 - registration status: 204
+2023-06-03T14:11:37.055+09:00  INFO [gateway-server,,] 9480 --- [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-03T14:11:37.057+09:00  INFO [gateway-server,,] 9480 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-03T14:11:37.062+09:00  INFO [gateway-server,,] 9480 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-03T14:11:39.165+09:00  INFO [gateway-server,,] 9480 --- [RMI TCP Connection(8)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-06-03T14:11:42.177+09:00  INFO [gateway-server,,] 9480 --- [RMI TCP Connection(8)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-06-03T14:11:42.184+09:00  INFO [gateway-server,,] 9480 --- [RMI TCP Connection(8)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/host.docker.internal:gateway-server:8070 - deregister  status: 200
+2023-06-03T14:11:42.187+09:00  INFO [gateway-server,,] 9480 --- [RMI TCP Connection(8)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
